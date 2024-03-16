@@ -42,7 +42,7 @@ Hematoxylin and eosin (H & E) staining is a widely used technique in histology t
 
 The best ROC curve after tuning the parameters
 
-![ROC Curve](best_roc.png)
+![ROC Curve](ROC_best.png)
 
 ## **Outcome**
 
