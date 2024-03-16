@@ -48,7 +48,7 @@ The best ROC curve after tuning the parameters
 
 |Label/Probability|Count|
 |-----------------|-----|
-|0.9    |     1|
+|0.9 (Malignant)   |     1|
 |0.8   |   19098|
 |0.7   |   10772|
 |0.6   |  6599  |
@@ -57,7 +57,7 @@ The best ROC curve after tuning the parameters
 |0.3  |  4226|
 |0.2  |  3707|
 |0.1 |   2508|
-|0.0  |  138 |
+|0.0 (Benign) |  138 |
 
 
 ### **References**
