@@ -59,7 +59,9 @@ The best ROC curve after tuning the parameters
 |0.1 |   2508|
 |0.0 (Benign) |  138 |
 
+Below is the distribution of probabilities - it is left skewed!
 
+![Cancer Distribution](cancer.png)
 ### **References**
 
 `Zhu Z, Wang SH, Zhang YD. A Survey of Convolutional Neural Network in Breast Cancer. Comput Model Eng Sci. 2023 Mar 9;136(3):2127-2172. doi: 10.32604/cmes.2023.025484. PMID: 37152661; PMCID: PMC7614504.`
