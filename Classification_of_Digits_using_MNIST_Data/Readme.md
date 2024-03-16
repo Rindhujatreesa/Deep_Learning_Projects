@@ -78,7 +78,6 @@ Where <code>&alpha;</code> is the learning rate and <code>dW</code> is the gradi
 - In this implementation, a Convolutional Neural Network (CNN) model for classifying handwritten digits from the MNIST dataset was developed and trained. 
 - The model architecture consists of a convolutional layer followed by ReLU activation, max-pooling, and a fully connected layer with softmax activation for multiclass classification.
 - The model was trained using the Stochastic Gradient Descent (SGD) optimizer over 5 epochs with a batch size of 250.
-### Training and testing of the model
 - During training, the model learned to recognize intricate patterns and features in the input images, enabling it to make accurate predictions.
 - The training process involved iterative forward and backward passes, adjusting the model's parameters to minimize the softmax cross-entropy loss.
 - After the training process, the model demonstrated a high level of accuracy on the unseen test dataset, achieving an accuracy of 96.44%.
