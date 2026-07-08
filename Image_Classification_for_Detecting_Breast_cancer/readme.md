@@ -1,20 +1,20 @@
-This project implements CNN using high-end python libraries such as `TensorFlow` and `Keras` to classify images to help detect Breast Cancer
+This project implements CNN using high-end Python libraries such as `TensorFlow` and `Keras` to classify images to help detect Breast Cancer
 ## **Image Classification For Breast Cancer Detection**
 
 ### **Breast Cancer and H&E Staining**
 
 ### **Breast Cancer**
 
-Breast cancer is the type of cancer that begins in the cells of the breast. It can occur in both men and women, but it is far more common and the second most common (after skin cancer) in women. These cancers are characterized by abnormal growth of certain breast cells that divide more rapidly than healthy cells causing a lump or mass. These cells can spread to the lymph nodes and other parts of the body [(Mayo Clinic)](https://www.mayoclinic.org/diseases-conditions/breast-cancer/symptoms-causes/syc-20352470#:~:text=Doctors%20know%20that%20breast%20cancer,other%20parts%20of%20your%20body.).
+Breast cancer is a type of cancer that begins in the cells of the breast. It can occur in both men and women, but it is far more common and the second most common (after skin cancer) in women. These cancers are characterized by abnormal growth of certain breast cells that divide more rapidly than healthy cells, causing a lump or mass. These cells can spread to the lymph nodes and other parts of the body [(Mayo Clinic)](https://www.mayoclinic.org/diseases-conditions/breast-cancer/symptoms-causes/syc-20352470#:~:text=Doctors%20know%20that%20breast%20cancer,other%20parts%20of%20your%20body.).
 
-Breast cancer can be detected through various methods, including medical imaging like mammography, ultrasound, and magnetic resonance imaging (MRI), as well as through histopathologic examination of tissue samples. Usually, medical imaging techniques are done manually by experts. This poses a few challenges such as lack of experts, chances for False predictions, and human errors [(Zhu et al., 2023)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7614504/).
+Breast cancer can be detected through various methods, including medical imaging like mammography, ultrasound, and magnetic resonance imaging (MRI), as well as through histopathologic examination of tissue samples. Usually, medical imaging techniques are performed manually by experts. This poses a few challenges such as lack of experts, chances for False predictions, and human errors [(Zhu et al., 2023)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7614504/).
 
 Convolutional Neural Network (CNN) designs are widely used as stand-alone or in combination with other models for medical image analysis with higher accuracy outcomes. This project focuses on testing two models for the image analysis of breast cancer detection. [(Zhu et al., 2023)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7614504/).
 
 
 ### **H&E Staining**
 
-Hematoxylin and eosin (H & E) staining is a widely used technique in histology to visualize the microscopic structure of tissues. The technique helps in identifying different tissues types in a sample. Hematoxylin stains cell nuclei deep blue-purple reacting with nucleic acids, while eosin stains cytoplasm and extracellular matrix pink reacting with proteins. H&E staining is commonly used in pathology to examine tissue samples and identify abnormalities, including cancerous cells [(Fischer et al., 2008)](https://pubmed.ncbi.nlm.nih.gov/21356829/).
+Hematoxylin and eosin (H & E) staining is a widely used technique in histology to visualize the microscopic structure of tissues. The technique helps in identifying different tissue types in a sample. Hematoxylin stains cell nuclei deep blue-purple, reacting with nucleic acids, while eosin stains cytoplasm and extracellular matrix pink reacting with proteins. H&E staining is commonly used in pathology to examine tissue samples and identify abnormalities, including cancerous cells [(Fischer et al., 2008)](https://pubmed.ncbi.nlm.nih.gov/21356829/).
 
 ![imag](H&Estaining.png)
 
@@ -59,9 +59,16 @@ The best ROC curve after tuning the parameters
 |0.1 |   2508|
 |0.0 (Benign) |  138 |
 
-Below is the distribution of probabilities - it is left skewed!
+Below is the distribution of probabilities - it is left-skewed!
 
 ![Cancer Distribution](cancer.png)
+
+### Training Strategy
+
+![](CNN.png)
+
+![](CNN_training.png)
+
 ### **References**
 
 `Zhu Z, Wang SH, Zhang YD. A Survey of Convolutional Neural Network in Breast Cancer. Comput Model Eng Sci. 2023 Mar 9;136(3):2127-2172. doi: 10.32604/cmes.2023.025484. PMID: 37152661; PMCID: PMC7614504.`
